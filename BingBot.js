@@ -74,8 +74,8 @@ if (search_icon != undefined) {
       if (element.innerText == "5") {
         nextBingPage = false;
         location.href = "https://www.bing.com/";
-    }
-      clearInterval(elementExist);
+        clearInterval(elementExist);
+      }
   }, 100)
 
   if (nextBingPage) {
